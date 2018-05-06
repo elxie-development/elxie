@@ -88,4 +88,4 @@ if(!commandFile) return message.channel.send("No command found with that name.")
 
 
 setInterval(setActivity, 1000 * 60 * 2)
-client.login("NDQyNzg5ODg0MDk3NDYyMjgz.DdD7vA.UqzsqHkxg7roj21uunfSnBiNXnw");
+client.login("");
