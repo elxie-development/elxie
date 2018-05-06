@@ -65,7 +65,7 @@ if(!commandFile) return message.channel.send("No command found with that name.")
     I am logged in and ready to roll!
     LET'S GO!
     ------------------------------------------------------
-    ----------Bot created by Tea Cup#3433-----------
+    ----------Bot created by Tea Cup#3433 AND Others-----------
     ------------------------------------------------------
     -----------------Bot's commands logs------------------`
     
