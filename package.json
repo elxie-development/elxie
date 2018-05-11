@@ -1,0 +1,14 @@
+{
+  "name": "fastly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "ms": "^2.1.1",
+    "superagent": "^3.8.3"
+  }
+}
