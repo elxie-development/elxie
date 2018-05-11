@@ -62,11 +62,7 @@ if(!commandFile) return message.channel.send("No command found with that name.")
     Logged in as ${client.user.tag}
     Working on ${client.guilds.size} servers!
     ${client.channels.size} channels and ${client.users.size} users cached!
-    I am logged in and ready to roll!
-    LET'S GO!
-    ------------------------------------------------------
-    ----------Bot created by Tea Cup#3433 AND Others-----------
-    ------------------------------------------------------
+    I am logged in and ready!
     -----------------Bot's commands logs------------------`
     
         console.log(clientonmessage);
@@ -88,4 +84,4 @@ if(!commandFile) return message.channel.send("No command found with that name.")
 
 
 setInterval(setActivity, 1000 * 60 * 2)
-client.login("");
+client.login(process.env.token);
