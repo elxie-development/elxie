@@ -83,7 +83,7 @@ if(!commandFile) return message.channel.send("No command found with that name.")
 
 
 setInterval(setActivity, 1000 * 60 * 2)
-client.on("message", async message => {
+/*client.on("message", async message => {
   if(message.author.bot) return;
   if(message.content.indexOf(config.prefix) !== 0) return;
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
@@ -98,5 +98,5 @@ client.on("message", async message => {
     message.delete().catch(O_o=>{}); 
     message.channel.send(sayMessage);
   }
-})
+})*/
 client.login(process.env.token);
