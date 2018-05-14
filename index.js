@@ -94,7 +94,7 @@ if(!commandFile) return message.channel.send("No command found with that name.")
         console.log(`[ LOG ] set Activity set to ( ${info} )`) //Logs to console what the setGame was set as.
     }
 
-}
+}dsadsa
 
 
 setInterval(setActivity, 1000 * 60 * 2)
