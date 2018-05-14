@@ -1,3 +1,5 @@
 {
-    "debugMode": "1"
+    "debugMode": "1",
+    "prefix": "e.",
+    "PREFIX": "e."
 }
